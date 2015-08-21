@@ -73,3 +73,6 @@ console.timeEnd('1000-elements');
 // label 不存在的时候会输出错误信息
 // Error: No such label: 10000-elements
 //at Console.timeEnd (console.js:85:11)
+
+console.assert(true, "assert true");
+console.assert(false, "assert false");
